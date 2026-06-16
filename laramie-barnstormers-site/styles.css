@@ -592,10 +592,6 @@ p {
 
 /* Rules */
 
-.rules-section {
-  padding-top: 0;
-}
-
 .rules-panel {
   display: grid;
   grid-template-columns: auto 1fr;
