@@ -22,7 +22,7 @@ Then visit `http://localhost:8000` in a browser.
 - Address set to 32476 US-30, Laramie, WY 82072
 - Club email set to LaramieBarnstormers@gmail.com
 - Facebook page linked
-- Rules section contains a temporary placeholder
+- Rules section includes the approved flying site safety and operational rules
 - Contact form is in preview mode and does not submit messages yet
 
 ## Connect the contact form before launch
@@ -34,10 +34,6 @@ A form processing service will be configured before the public launch. After rec
 3. Replace `action="#"` with the form endpoint.
 4. Change `data-mode="demo"` to `data-mode="live"`.
 5. Remove or update the note that says the form is in preview mode.
-
-## Replace the rules placeholder
-
-In `index.html`, search for `Club rules coming soon`. Replace that section with the approved rules or link to an approved PDF.
 
 ## Main files
 
@@ -56,4 +52,4 @@ In `index.html`, search for `Club rules coming soon`. Replace that section with 
 6. Configure the contact-form endpoint.
 7. Connect the custom domain.
 8. Test the site on phones and desktop computers.
-9. Add the approved club rules.
+9. Review the approved club rules before launch.
