@@ -449,23 +449,6 @@ p {
   text-decoration: none;
 }
 
-/* Introduction */
-
-.intro-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 0.75fr);
-  align-items: start;
-  gap: clamp(2rem, 6vw, 6rem);
-}
-
-.intro-grid h2 {
-  max-width: 780px;
-}
-
-.intro-copy p {
-  font-size: 1.07rem;
-}
-
 /* Facilities */
 
 .facility-grid {
@@ -922,7 +905,6 @@ p {
     text-align: center;
   }
 
-  .intro-grid,
   .membership-grid,
   .location-grid,
   .contact-grid {
