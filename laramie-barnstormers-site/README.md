@@ -19,7 +19,7 @@ Then visit `http://localhost:8000` in a browser.
 - Responsive single-page layout
 - Club logo and supplied photographs included
 - Membership price set to $45 per year
-- Address set to 5050 N 3rd Street, Laramie, WY 82072
+- Address set to 32476 US-30, Laramie, WY 82072
 - Club email set to LaramieBarnstormers@gmail.com
 - Facebook page linked
 - Rules section contains a temporary placeholder
