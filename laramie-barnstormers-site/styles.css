@@ -499,6 +499,72 @@ p {
   margin-bottom: 0;
 }
 
+/* Events */
+
+.events-section {
+  background: white;
+}
+
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.2rem;
+}
+
+.event-card {
+  min-width: 0;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1.1rem;
+  padding: 1.35rem;
+  border: 1px solid rgba(23, 23, 23, 0.1);
+  border-radius: var(--radius);
+  background: #fbfaf6;
+}
+
+.event-date {
+  width: 72px;
+  min-height: 82px;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  border-radius: 14px;
+  background: var(--ink);
+  color: white;
+  text-align: center;
+}
+
+.event-month {
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.event-day {
+  font-size: 1.85rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.event-content h3 {
+  font-size: 1.35rem;
+}
+
+.event-content p {
+  margin-bottom: 0;
+}
+
+.event-card-highlight {
+  grid-template-columns: 1fr;
+  border-color: rgba(229, 35, 45, 0.25);
+  background: var(--cream);
+}
+
+.event-card-highlight p {
+  margin-bottom: 1rem;
+}
+
 /* Membership */
 
 .membership {
@@ -912,6 +978,10 @@ p {
   }
 
   .facility-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .events-grid {
     grid-template-columns: 1fr;
   }
 
