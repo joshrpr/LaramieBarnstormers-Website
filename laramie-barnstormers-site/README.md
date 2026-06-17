@@ -23,11 +23,11 @@ Then visit `http://localhost:8000` in a browser.
 - Club email set to LaramieBarnstormers@gmail.com
 - Facebook page linked
 - Rules section includes the approved flying site safety and operational rules
-- Contact form currently sends test messages to Joshrpr26@gmail.com through FormSubmit
+- Contact form sends messages to LaramieBarnstormers@gmail.com through FormSubmit
 
 ## Contact form
 
-The contact form uses FormSubmit. The first live submission will send a confirmation email to `Joshrpr26@gmail.com`; approve that email to activate delivery. After testing, update the form action to `https://formsubmit.co/LaramieBarnstormers@gmail.com` for club delivery.
+The contact form uses FormSubmit. The first live submission will send a confirmation email to `LaramieBarnstormers@gmail.com`; approve that email to activate delivery.
 
 ## Main files
 
