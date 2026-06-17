@@ -850,15 +850,9 @@ p {
   border: 0;
 }
 
-.form-note,
-.form-status {
+.form-note {
   margin: 0.8rem 0 0;
   font-size: 0.85rem;
-}
-
-.form-status {
-  color: var(--red-dark);
-  font-weight: 750;
 }
 
 /* Footer */

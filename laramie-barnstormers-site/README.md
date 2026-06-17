@@ -23,17 +23,11 @@ Then visit `http://localhost:8000` in a browser.
 - Club email set to LaramieBarnstormers@gmail.com
 - Facebook page linked
 - Rules section includes the approved flying site safety and operational rules
-- Contact form is in preview mode and does not submit messages yet
+- Contact form sends messages to LaramieBarnstormers@gmail.com through FormSubmit
 
-## Connect the contact form before launch
+## Contact form
 
-A form processing service will be configured before the public launch. After receiving the service endpoint:
-
-1. Open `index.html`.
-2. Find the form beginning with `<form class="contact-form"`.
-3. Replace `action="#"` with the form endpoint.
-4. Change `data-mode="demo"` to `data-mode="live"`.
-5. Remove or update the note that says the form is in preview mode.
+The contact form uses FormSubmit. The first live submission will send a confirmation email to `LaramieBarnstormers@gmail.com`; approve that email to activate delivery.
 
 ## Main files
 

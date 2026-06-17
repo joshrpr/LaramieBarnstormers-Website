@@ -1,8 +1,6 @@
 const menuButton = document.querySelector('.menu-toggle');
 const navigation = document.querySelector('#site-nav');
 const navigationLinks = navigation.querySelectorAll('a');
-const contactForm = document.querySelector('#contact-form');
-const formStatus = document.querySelector('#form-status');
 const yearElement = document.querySelector('#current-year');
 
 if (yearElement) {
@@ -32,14 +30,3 @@ if (menuButton && navigation) {
   });
 }
 
-if (contactForm) {
-  contactForm.addEventListener('submit', (event) => {
-    const mode = contactForm.dataset.mode;
-
-    if (mode === 'demo') {
-      event.preventDefault();
-      formStatus.textContent = 'This preview form is not connected yet. Please email LaramieBarnstormers@gmail.com.';
-      formStatus.focus?.();
-    }
-  });
-}
