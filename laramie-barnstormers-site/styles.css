@@ -1048,7 +1048,11 @@ p {
   }
 
   .hero-image {
-    object-position: 56% center;
+    object-position: 34% center;
+  }
+
+  .membership-photo img {
+    object-position: 34% center;
   }
 
   .hero-overlay {
