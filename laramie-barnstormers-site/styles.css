@@ -1045,10 +1045,16 @@ p {
 
   .hero {
     min-height: calc(100svh - 76px);
+    align-items: start;
   }
 
   .hero-content {
-    transform: translateY(-2rem);
+    min-height: calc(100svh - 76px);
+    display: flex;
+    flex-direction: column;
+    padding-top: clamp(1.5rem, 6vh, 3rem);
+    padding-bottom: 5.8rem;
+    transform: none;
   }
 
   .hero-image {
@@ -1074,7 +1080,7 @@ p {
   }
 
   .hero-actions {
-    margin-top: 1.25rem;
+    margin-top: auto;
   }
 
   .hero-actions .button,
@@ -1082,6 +1088,10 @@ p {
   .location-actions .text-link {
     width: 100%;
     text-align: center;
+  }
+
+  .hero-scroll {
+    display: none;
   }
 
   .facility-card {
