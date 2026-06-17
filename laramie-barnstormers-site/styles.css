@@ -1047,6 +1047,10 @@ p {
     min-height: calc(100svh - 76px);
   }
 
+  .hero-content {
+    transform: translateY(-2rem);
+  }
+
   .hero-image {
     object-position: 82% center;
   }
@@ -1067,6 +1071,10 @@ p {
   .location-actions {
     flex-direction: column;
     align-items: stretch;
+  }
+
+  .hero-actions {
+    margin-top: 1.25rem;
   }
 
   .hero-actions .button,
